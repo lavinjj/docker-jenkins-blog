@@ -1,0 +1,106 @@
+[
+    {
+        "file":"angularjs_builtin_directives_ngrepeat",
+        "title":"AngularJS - Using built-in directives (ngRepeat)",
+        "summary":"This is the second article about AngularJS built-in directives series.",
+        "date":"04/12/2014",
+        "color":"danger",
+        "tags":[
+            {"name":"angularjs"}
+        ]
+    },
+    {
+        "file":"angularjs_builtin_directives",
+        "title":"AngularJS - Using built-in directives",
+        "summary":"One of the most important concept used from AngularJS is the directive. It is an extension of the HTML ...",
+        "date":"30/11/2014",
+        "color":"danger",
+        "tags":[
+            {"name":"angularjs"}
+        ]
+    },
+    {
+        "file":"angularjs_organize_code",
+        "title":"AngularJS - Four ways to organize the code",
+        "summary":"When starting a new AngularJS project a common question is \"how do we organize the code?\"",
+        "date":"12/11/2014",
+        "color":"danger",
+        "tags":[
+            {"name":"angularjs"}
+        ]
+    },
+    {
+        "file":"onepage_blog",
+        "title":"One Page Blog using AngularJS and Markdown",
+        "summary":"I have changed my blog again, but this time i decided to design and code it personally.",
+        "date":"26/10/2014",
+        "color":"danger",
+        "tags":[
+            {"name":"design"},
+            {"name":"angularjs"}
+        ]
+    },
+    {
+        "file":"entity_framework_custom_config",
+        "title":"Entity Framework custom configuration",
+        "summary":"With EF Code-First it’s easy to create a database starting from domain model, but it’s always possible create ...",
+        "date":"16/03/2012",
+        "color":"primary",
+        "tags":[
+            {"name":".net"}
+        ]},
+    {
+        "file":"entity_framework_database_init",
+        "title":"Entity Framework database initialization",
+        "summary":"Starting from version 4.1, the Entity Framework provides an useful way for creating and optionally ...",
+        "date":"24/01/2012",
+        "color":"primary",
+        "tags":[
+            {"name":".net"}
+        ]},
+    {
+        "file":"autofac_mvc_dependencyresolver",
+        "title":"MVC dependency resolution",
+        "summary":"From the current version of ASP.NET MVC (release 3+) provides a new IDependencyResolver ...",
+        "date":"18/01/2012",
+        "color":"primary",
+        "tags":[
+            {"name":".net"}
+        ]},
+    {
+        "file":"mongo_lab_restclient",
+        "title":"MongoLab Rest Client",
+        "summary":"I love build ASP.NET MVC projects using C# for this reason I’m searching an inexpensive way for ...",
+        "date":"05/01/2012",
+        "color":"warning",
+        "tags":[
+            {"name":"nosql"}
+        ]},
+    {
+        "file":"when_model_legacy",
+        "title":"When the model is legacy",
+        "summary":"I started a new Asp.Net MVC project with an existing domain model and DAL logic. Unfortunately ...",
+        "date":"20/12/2011",
+        "color":"primary",
+        "tags":[
+            {"name":".net"}
+        ]},
+    {
+        "file":"entity_framework_model_init",
+        "title":"Entity Framework model init",
+        "summary":"Also if EF 4.1 can generate the database for us, we still have the possibility to manage how the database ...",
+        "date":"18/06/2011",
+        "color":"primary",
+        "tags":[
+            {"name":".net"}
+        ]},
+    {
+        "file":"entity_framework_41_news",
+        "title":"Entity Framework 4.1 news",
+        "summary":"I must admit I like very much the last release (4.1) of Entity Framework. Although the EF team have also ...",
+        "date":"08/06/2011",
+        "color":"primary" ,
+        "tags":[
+            {"name":".net"}
+        ]}
+]

@@ -1,0 +1,27 @@
+{
+  "name": "docker-jenkins-blog",
+  "version": "1.0.0",
+  "description": "personal blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lavinjj/docker-jenkins-blog.git"
+  },
+  "author": "Jim Lavin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lavinjj/docker-jenkins-blog/issues"
+  },
+  "homepage": "https://github.com/lavinjj/docker-jenkins-blog#readme",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-sanitize": "^1.6.4",
+    "angular-ui-router": "^1.0.3",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "showdown": "^1.7.1"
+  }
+}

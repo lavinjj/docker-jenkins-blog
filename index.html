@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="opb"  ng-cloak>
+<head>
+    <meta charset="UTF-8">
+    <title>Docker and Jenkins on Windows blog</title>
+    <meta name="author" content="Jim Lavin">
+    <meta name="description" content="Docker and Jenkins on Windows blog">
+    <meta name="keywords" content="angularjs, nodejs, cloud, mobile, mvc, rest, entityframework, antdimot, antonio di motta">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://www.dockeronwindows.com/rss.xml" rel="alternate" title="Docker and Jenkins on Windows blog" type="application/atom+xml">
+    <link rel="canonical" href="http://www.dockeronwindows.com">
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- left panel -->
+            <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+                <div class="opb-header-panel" ng-controller="InfoController">
+                    <div class="opb-avatar">
+                        <img class="img-circle" ng-src="{{imageurl}}" align="{{author}}" width="150px" height="150px">
+                    </div>
+                    <div class="opb-caption">
+                        <p class="lead"><h4>{{author}}</h4></p>
+                        <p>{{description}}</p>
+                        <hr>
+                        <p><a href="#/home" class="btn btn-default">Home</a></p>
+                        <p><a href="#/article/{{about}}" class="btn btn-default">About me</a></p>
+                    </div>
+                    <div class="opb-social">
+                        <p>
+                            <a class="btn btn-social-icon btn-twitter" href="{{twitter}}">
+                                <i class="fa fa-twitter-square"></i>
+                            </a>
+                            <a class="btn btn-social-icon btn-linkedin" href="{{linkedin}}">
+                                <i class="fa fa-linkedin-square"></i>
+                            </a>
+                            <a class="btn btn-social-icon btn-github" href="{{github}}">
+                                <i class="fa fa-github-square"></i>
+                            </a>
+                        </p>
+                        <p>
+                            <a class="btn btn-social-icon" href="{{rss}}">
+                                <i class="fa fa-rss-square"></i>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- right panel -->
+            <div class="col-lg-9 col-md-8 col-sm-8 col-xs-12">
+
+                <div ui-view></div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.js" language="JavaScript"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js" language="JavaScript"></script>
+    <script src="node_modules/angular/angular.js" language="JavaScript"></script>
+    <script src="node_modules/angular-ui-router/release/angular-ui-router.js" language="JavaScript"></script>
+    <script src="node_modules/angular-sanitize/angular-sanitize.js" language="JavaScript"></script>
+    <script src="node_modules/showdown/dist/showdown.js" language="JavaScript"></script>
+    
+    <script src="js/app.js" lang="Javascript"></script>
+    <script src="js/services.js" lang="Javascript"></script>
+    <script src="js/controllers.js" lang="Javascript"></script>
+    <script src="js/directives.js" lang="Javascript"></script>
+</body>
+</html>

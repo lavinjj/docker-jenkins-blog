@@ -1,0 +1,44 @@
+
+@media screen and (max-width: 767px) {
+    .opb-header-panel {
+        float: left;
+        padding-top: 2em;
+        padding-left: 3em;
+        position: inherit;
+        text-align: center;
+        display: table;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .opb-header-panel {
+        float: left;
+        padding-top: 6em;
+        padding-left: 1em;
+        position: fixed;
+        text-align: center;
+        display: table;
+        /*background-color: red;*/
+    }
+}
+
+div.opb-workarea-panel {
+    padding-top: 1em;
+    float: left;
+}
+
+div.opb-avatar {
+    padding-bottom: 2em;
+}
+
+div.opb-caption {
+    width:250px;
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+div.opb-social {
+    display: inline;
+}
+
+

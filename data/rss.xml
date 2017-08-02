@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+	<channel>
+		<title>Antonio Di Motta</title>
+		<link>http://www.dimotta.net</link>
+		<description>The blog of Antonio Di Motta</description>
+		<category>IT/Internet/Web/Cloud/Mobile/Startup</category>
+		<item>
+			<title>AngularJS - Using built-in directives (ngRepeat)</title>
+			<link>http://www.dimotta.net/#/article/angularjs_builtin_directives_ngrepeat</link>
+			<description>AngularJS - Using built-in directives (ngRepeat).</description>
+			<category>angularjs</category>
+			<category>CodeProject</category>
+			<pubDate>Thu, 04 Dic 2014</pubDate>
+		</item>
+		<item>
+			<title>AngularJS - Using built-in directives</title>
+			<link>http://www.dimotta.net/#/article/angularjs_builtin_directives</link>
+			<description>One of the most important concept used from AngularJS is the directive.</description>
+			<category>angularjs</category>
+			<category>CodeProject</category>
+			<pubDate>Sun, 30 Nov 2014</pubDate>
+		</item>
+		<item>
+			<title>AngularJS - Four ways to organize the code</title>
+			<link>http://www.dimotta.net/#/article/angularjs_organize_code</link>
+			<description>When starting a new javascript project a common question is...</description>
+			<category>angularjs</category>
+			<category>CodeProject</category>
+			<pubDate>Wed, 12 Nov 2014</pubDate>
+		</item>
+		<item>
+			<title>One Page Blog</title>
+			<link>http://www.dimotta.net/#/article/onepage_blog</link>
+			<description>I have changed my blog again, but this time i decided to design and code it personally.</description>
+			<category>angularjs</category>
+			<pubDate>Sub, 10 Oct 2014</pubDate>
+		</item>
+	</channel>
+</rss>
+
+
+
